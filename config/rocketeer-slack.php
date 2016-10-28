@@ -6,6 +6,7 @@ return [
     'url' => '',
     'username' => '',
     'room' => '',
+    'link_names' => false, // Allows people and channels to be tagged inside the messages.
 
     // Message
     // You can use the following variables :
@@ -21,5 +22,4 @@ return [
 
     // Default emoji to use as the bot's avatar
     'emoji' => ':rocket:',
-
 ];
